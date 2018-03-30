@@ -1,0 +1,68 @@
+{
+	"Pool1":[
+	{ 	
+		"id":"ronaldo",
+		"name" : require("./img/id1.jpg"),	
+	},
+
+	{ 	
+		"id":"zizou",
+		"name" : require("./img/id2.jpg")
+	},
+
+	{ 	
+		"id":"henry",
+		"name" : require("./img/id3.jpg")	
+	},
+
+	{ 	
+		"id":"bartez",
+		"name" : require("./img/id4.jpg")	
+	}
+	],
+	"Pool2":[
+	{ 	
+		"id":"lhommebleu",
+		"name" : require("./img/id5.jpg")	
+	},
+
+	{ 	
+		"id":"cheval",
+		"name" :require("./img/id6.jpg")
+	},
+
+	{ 	
+		"id":"messi",
+		"name" : require("./img/id7.png")
+	},
+
+	{ 	
+		"id":"cheval2",
+		"name" : require("./img/id8.jpg")
+	}
+	],
+	"Pool3":[
+	{ 	
+		"id":"neymar",
+		"name" : require("./img/id9.jpg")
+	},
+
+	{ 	
+		"id":"rebeu",
+		"name" : require("./img/id10.jpg")
+	},
+
+	{ 	
+		"id":"ballon",
+		"name" : require("./img/id13.jpg")	
+	},
+
+	{ 	
+		"id":"renoi",
+		"name" : require("./img/id12.jpg")
+	}
+	],
+	"cpt" : "4",
+	"nombrePool":"3"
+}
+
