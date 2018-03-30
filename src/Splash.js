@@ -26,7 +26,7 @@ class Splash extends Component {
     AsyncStorage.getItem('app_token')
       .then(token => {
           if (token) {
-            this._navigate('PagePrincipal');
+            this._navigate('Comparaison');
           }else {
             this._navigate('Home');
           }

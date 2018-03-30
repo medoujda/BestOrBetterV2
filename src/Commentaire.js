@@ -12,8 +12,9 @@ export default class Commentaire extends Component {
   };
 
   _postCommentaire() {
+    const textCommentaire = this.state.textCommentaire;
     axios.post('http://10.0.2.2:3000/commentaire/newcommentaire',
-      { textCommentaire: this.state.textCommentaire, emailUser: 'mohammedoujda16@gmail.com', nomClassement: 'joueur' })
+      { textCommentaire: textCommentaire, emailUser: 'mohammedoujda16@gmail.com', nomClassement: 'joueur' })
       .then(resp => { alert("Commentaire sauvegardé"); })
       .catch(error => console.error(error));
   }
@@ -33,7 +34,7 @@ export default class Commentaire extends Component {
                 </Item>
               </Col>
               <Col style={{ backgroundColor: '#00000000', height: 200, flex:1 }}>
-                <Button onPress = {()=> this._postCommentaire.bind(this)} rounded  >
+                <Button onPress = {()=> {this._postCommentaire.bind(this)}} rounded  >
                   <Text>Post</Text>
                 </Button>
               </Col>
